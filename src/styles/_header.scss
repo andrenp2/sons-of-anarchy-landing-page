@@ -2,19 +2,33 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0);
+    z-index: 1;
 
     &__container {
         display: flex;
         justify-content: space-between;
-        padding: 8px 36px;
+    }
+
+    &__logo {
+        width: 120px;
+        padding: 10px;
+        margin-left: 40px;
     }
 
     &__links {
         display: flex;
+        align-items: center;
+        padding-right: 50px;
 
         &__item {
+            font-size: 20px;
             margin: 15px;
         }
+    }
+
+    &__button {
+        text-decoration: none;
+        color: #fff;
     }
 }

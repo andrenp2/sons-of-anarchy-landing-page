@@ -1,5 +1,28 @@
 @use 'header';
+@use 'hero';
+@use 'sobre';
+@use 'temporadas';
+@use 'footer';
 
-body {
-    background-color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.trailer {
+    display: block;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 48px;
+
+    h1 {
+        font-size: 40px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
 }
