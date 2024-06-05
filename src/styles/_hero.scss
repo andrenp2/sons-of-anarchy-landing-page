@@ -10,6 +10,11 @@
     font-size: 20px;
     color: #fff;
 
+    @media (max-width: 768px){
+        display: block;
+        padding-top: 0;
+    }
+
     &__picture {
         img {
             width: 100%;
@@ -20,9 +25,22 @@
     &__titulo {
         color: #fff;
         font-size: 50px;
+
+        @media (max-width: 768px){
+            font-size: 36px;
+            text-align: center;
+            padding-top: 32px;
+            padding-bottom: 24px;
+        }
     }
 
     p{
         padding-top: 32px;
+
+        @media (max-width: 768px){
+            padding: 12px;
+            font-size: 16px;
+            text-align: justify;
+        }
     }
 }

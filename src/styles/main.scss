@@ -31,5 +31,18 @@
         font-size: 40px;
         padding-top: 48px;
         padding-bottom: 48px;
+
+        @media (max-width: 768px){
+            font-size: 32px;
+            padding-bottom: 12px;
+        }
+    }
+
+    @media (max-width: 768px){
+        iframe {
+            max-width: 100%;
+            padding-top: 0;
+            padding: 16px;
+        }
     }
 }

@@ -10,12 +10,21 @@
         padding-bottom: 54px;
         padding-top: 48px;
         font-size: 40px;
+
+        @media (max-width: 768px){
+            font-size: 32px;
+            padding-bottom: 60px;
+        }
     }
 
     &__list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 32px;
+
+        @media (max-width: 768px){
+            grid-template-columns: 1fr;
+        }
 
         &__item {
             position: relative;
@@ -33,6 +42,10 @@
                 padding: 10px;
                 bottom: 0;
                 left: 0;
+
+                @media (max-width: 768px){
+                    width: 60%;
+                }
 
                 &:hover {
                     background-color: black;
